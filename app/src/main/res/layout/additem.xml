@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Item Name"
+        android:hint="Item Name"
         android:ems="10"
         android:id="@+id/item_name" />
 
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Item Type"
+        android:hint="Item Type"
         android:ems="10"
         android:id="@+id/item_type" />
 
@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Item Information"
+        android:hint="Item Information"
         android:ems="10"
         android:id="@+id/item_information"
         android:layout_gravity="right" />

@@ -14,7 +14,6 @@ import android.view.Menu;
 public class Splash_activity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         try {
             Thread.sleep(2000);
         }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ListView;
 
 import com.example.hanheedo.a20170328.R;
@@ -21,10 +22,14 @@ public class MyItemsList extends AppCompatActivity
         setContentView(R.layout.myitemslist);
 
         Intent intent = getIntent();
-        String data = intent.getStringExtra("D_key");
+        String data = intent.getStringExtra("Login_List");
+    }
 
-
-
+    public void addClick(View view)
+    {
+        Intent intent = new Intent(this, AddItem.class);
+        intent.putExtra("List_Add","data_3");
+        startActivity(intent);
     }
 }
 

@@ -4,6 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hanheedo.a20170328">
 
+    <!--퍼미션에 대한 정보-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <!--앱 구성요소에 대한 정보-->
     <application
         android:allowBackup="true"
@@ -11,6 +14,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--메타 데이터 정보-->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
 
         <!--스플래쉬 액티비티-->
         <activity
@@ -35,6 +41,8 @@
             android:name = ".MyItemsList"/>
         <activity
             android:name=".AddItem"/>
+        <activity
+            android:name=".SignUp"/>
 
     </application>
 </manifest>
